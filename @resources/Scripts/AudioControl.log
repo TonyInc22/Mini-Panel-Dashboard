@@ -1,0 +1,36 @@
+﻿2026-07-25 20:16:17 [CycleOutput] System.Management.Automation.MethodInvocationException: Exception calling "CycleOutput" with "0" argument(s): "Unable to cast COM object of type 'System.__ComObject' to interface type 'MiniPanelAudio.IMMDeviceCollection'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0BD7A1BE-7A1A-44DB-8397-C0A98E4E1E5A}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE))." ---> System.InvalidCastException: Unable to cast COM object of type 'System.__ComObject' to interface type 'MiniPanelAudio.IMMDeviceCollection'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0BD7A1BE-7A1A-44DB-8397-C0A98E4E1E5A}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).
+   at System.StubHelpers.InterfaceMarshaler.ConvertToManaged(IntPtr pUnk, IntPtr itfMT, IntPtr classMT, Int32 flags)
+   at MiniPanelAudio.IMMDeviceEnumerator.EnumAudioEndpoints(EDataFlow dataFlow, DeviceState stateMask, IMMDeviceCollection& devices)
+   at MiniPanelAudio.Controller.CycleOutput()
+   at CallSite.Target(Closure , CallSite , Type )
+   --- End of inner exception stack trace ---
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-07-25 20:52:02.102 [CycleOutput] [INFO] Cycle requested (PID=25980, 64-bit=True).
+2026-07-25 20:52:02.410 [CycleOutput] [SUCCESS] Output changed from "Realtek Digital Output" to "Speakers".
+2026-07-25 20:52:03.267 [CycleOutput] [INFO] Cycle requested (PID=25920, 64-bit=True).
+2026-07-25 20:52:03.764 [CycleOutput] [SUCCESS] Output changed from "Speakers" to "LS27B61x".
+2026-07-25 20:52:04.717 [CycleOutput] [INFO] Cycle requested (PID=24324, 64-bit=True).
+2026-07-25 20:52:05.153 [CycleOutput] [SUCCESS] Output changed from "LS27B61x" to "Realtek Digital Output".
+2026-07-25 20:52:47.038 [CycleOutput] [INFO] Cycle requested (PID=20464, 64-bit=True).
+2026-07-25 20:52:47.323 [CycleOutput] [SUCCESS] Output changed from "Realtek Digital Output" to "Speakers".
+2026-07-25 20:52:50.791 [CycleOutput] [INFO] Cycle requested (PID=10516, 64-bit=True).
+2026-07-25 20:52:51.060 [CycleOutput] [SUCCESS] Output changed from "Speakers" to "LS27B61x".
+2026-07-25 20:53:41.105 [CycleOutput] [INFO] Cycle requested (PID=26244, 64-bit=True).
+2026-07-25 20:53:41.409 [CycleOutput] [SUCCESS] Output changed from "LS27B61x" to "Realtek Digital Output".
+2026-07-25 20:54:40.194 [CycleOutput] [INFO] Cycle requested (PID=12464, 64-bit=True).
+2026-07-25 20:54:40.483 [CycleOutput] [SUCCESS] Output changed from "Speakers" to "LS27B61x".
+2026-07-25 20:54:43.849 [CycleOutput] [INFO] Cycle requested (PID=22676, 64-bit=True).
+2026-07-25 20:54:44.166 [CycleOutput] [SUCCESS] Output changed from "LS27B61x" to "Realtek Digital Output".
+2026-07-25 20:54:47.821 [CycleOutput] [INFO] Cycle requested (PID=3820, 64-bit=True).
+2026-07-25 20:54:48.121 [CycleOutput] [SUCCESS] Output changed from "Realtek Digital Output" to "Speakers".
+2026-07-25 21:01:55.927 [CycleOutput] [INFO] Cycle requested (PID=21552, 64-bit=True).
+2026-07-25 21:01:56.199 [CycleOutput] [SUCCESS] Output changed from "Speakers" to "LS27B61x".
+2026-07-25 21:01:58.987 [CycleOutput] [INFO] Cycle requested (PID=15784, 64-bit=True).
+2026-07-25 21:01:59.232 [CycleOutput] [SUCCESS] Output changed from "LS27B61x" to "Realtek Digital Output".
+2026-07-25 21:02:01.240 [CycleOutput] [INFO] Cycle requested (PID=26268, 64-bit=True).
+2026-07-25 21:02:01.523 [CycleOutput] [SUCCESS] Output changed from "Realtek Digital Output" to "Speakers".
+2026-07-25 21:05:25.888 [CycleOutput] [INFO] Cycle requested (PID=24656, 64-bit=True).
+2026-07-25 21:05:26.177 [CycleOutput] [SUCCESS] Output changed from "Speakers" to "LS27B61x".
